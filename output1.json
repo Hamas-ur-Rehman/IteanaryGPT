@@ -1,0 +1,318 @@
+{
+    "id": "custom_itinerary_0001",
+    "title": "3-Day Exploration of Ho Chi Minh City",
+    "startDate": "2024-02-02T00:00:00.000Z",
+    "endDate": "2024-02-05T00:00:00.000Z",
+    "departurePoint": {
+        "pickup": {
+            "startTime": "09:00",
+            "description": "Private driver will receive you at Tan Son Nhat International Airport arrival hall after you exit the immigration center"
+        },
+        "meetup": null,
+        "departureDate": "2024-02-02T00:00:00.000Z"
+    },
+    "returnPoint": {
+        "returnDate": "2024-02-05T00:00:00.000Z",
+        "startTime": "07:00",
+        "description": "Driver will pick you up at your hotel and drop you off 2 hours before your departure at Tan Son Nhat International Airport"
+    },
+    "routes": [
+        {
+            "city": "Ho Chi Minh City",
+            "country": "Vietnam",
+            "label": "Ho Chi Minh City, Ho Chi Minh, Vietnam",
+            "position": {
+                "lat": 10.7756,
+                "lng": 106.7019
+            }
+        }
+    ],
+    "days": [
+        {
+            "color": "#1C2B4B",
+            "index": 1,
+            "title": "Arrival and City Introduction",
+            "startAt": "2024-02-02T00:00:00.000Z",
+            "endAt": "2024-02-02T23:59:59.000Z"
+        },
+        {
+            "color": "#E5634B",
+            "index": 2,
+            "title": "Cultural and Historical Exploration",
+            "startAt": "2024-02-03T00:00:00.000Z",
+            "endAt": "2024-02-03T23:59:59.000Z"
+        },
+        {
+            "color": "#3E3D87",
+            "index": 3,
+            "title": "Leisure and Departure",
+            "startAt": "2024-02-04T00:00:00.000Z",
+            "endAt": "2024-02-04T23:59:59.000Z"
+        }
+    ],
+    "status": "PUBLISHED",
+    "author": {
+        "id": "custom_author_0001",
+        "fullname": "Travel Planner",
+        "username": "planner_user",
+        "email": "planner@example.com"
+    },
+    "activities": [
+        {
+            "name": "Ben Thanh Market",
+            "category": "Landmarks",
+            "address": {
+                "position": {
+                    "lat": 10.7725168,
+                    "lng": 106.6980208
+                },
+                "label": "Ben Thanh, District 1, Ho Chi Minh City, Vietnam"
+            },
+            "startDate": "2024-02-02T00:00:00.000Z",
+            "startTime": "10:00",
+            "duration": 60,
+            "activityId": "activityId_1"
+        },
+        {
+            "name": "War Remnants Museum",
+            "category": "Culture and History",
+            "address": {
+                "position": {
+                    "lat": 10.7795106,
+                    "lng": 106.6920916
+                },
+                "label": "Phường 6, District 3, Ho Chi Minh City 700000, Vietnam"
+            },
+            "startDate": "2024-02-03T00:00:00.000Z",
+            "startTime": "08:00",
+            "duration": 120,
+            "activityId": "activityId_2"
+        },
+        {
+            "name": "Notre Dame Cathedral of Saigon",
+            "category": "Culture and History",
+            "address": {
+                "position": {
+                    "lat": 10.7797855,
+                    "lng": 106.6990189
+                },
+                "label": "01 Công xã Paris, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh 70000, Vietnam"
+            },
+            "startDate": "2024-02-03T00:00:00.000Z",
+            "startTime": "10:30",
+            "duration": 60,
+            "activityId": "activityId_3"
+        },
+        {
+            "name": "Saigon Opera House",
+            "category": "Landmarks",
+            "address": {
+                "position": {
+                    "lat": 10.7766352,
+                    "lng": 106.7031654
+                },
+                "label": "07 Công Trường Lam Sơn, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh 710212, Vietnam"
+            },
+            "startDate": "2024-02-03T00:00:00.000Z",
+            "startTime": "12:00",
+            "duration": 60,
+            "activityId": "activityId_4"
+        },
+        {
+            "name": "Saigon Skydeck",
+            "category": "Landmarks",
+            "address": {
+                "position": {
+                    "lat": 10.7715673,
+                    "lng": 106.7042465
+                },
+                "label": "36 Đ. Hồ Tùng Mậu, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Vietnam"
+            },
+            "startDate": "2024-02-04T00:00:00.000Z",
+            "startTime": "09:00",
+            "duration": 60,
+            "activityId": "activityId_5"
+        }
+    ],
+    "foodPlaces": [
+        {
+            "name": "Breakfast at L'Usine",
+            "address": {
+                "position": {
+                    "lat": 10.7745401,
+                    "lng": 106.7009803
+                },
+                "label": "151/5 Đồng Khởi, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Vietnam"
+            },
+            "startDate": "2024-02-02T00:00:00.000Z",
+            "startTime": "08:00",
+            "duration": 60,
+            "placeId": "placeId_1"
+        },
+        {
+            "name": "Lunch at Pho Quynh",
+            "address": {
+                "position": {
+                    "lat": 10.7668881,
+                    "lng": 106.6902954
+                },
+                "label": "323 Phạm Ngũ Lão, Phường Phạm Ngũ Lão, Quận 1, Thành phố Hồ Chí Minh, Vietnam"
+            },
+            "startDate": "2024-02-02T00:00:00.000Z",
+            "startTime": "12:00",
+            "duration": 60,
+            "placeId": "placeId_2"
+        },
+        {
+            "name": "Dinner at Pizza 4P's Ben Thanh",
+            "address": {
+                "position": {
+                    "lat": 10.7733572,
+                    "lng": 106.6976176
+                },
+                "label": "8 Thủ Khoa Huân, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh 700000, Vietnam"
+            },
+            "startDate": "2024-02-02T00:00:00.000Z",
+            "startTime": "19:00",
+            "duration": 90,
+            "placeId": "placeId_3"
+        },
+        {
+            "name": "Lunch at Ngon Restaurant",
+            "address": {
+                "position": {
+                    "lat": 10.7774178,
+                    "lng": 106.6996655
+                },
+                "label": "160 Pasteur, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Vietnam"
+            },
+            "startDate": "2024-02-03T00:00:00.000Z",
+            "startTime": "12:00",
+            "duration": 60,
+            "placeId": "placeId_4"
+        }
+    ],
+    "accommodations": [
+        {
+            "name": "Felix Hotel",
+            "startRating": 5,
+            "address": {
+                "position": {
+                    "lat": 10.7680405,
+                    "lng": 106.6927711
+                },
+                "label": "219/8A Đ. Phạm Ngũ Lão, Phường Phạm Ngũ Lão, Quận 1, Thành phố Hồ Chí Minh, Vietnam"
+            },
+            "checkInDate": "2024-02-02T00:00:00.000Z",
+            "checkInTime": "14:00",
+            "checkOutDate": "2024-02-05T00:00:00.000Z",
+            "checkOutTime": "12:00",
+            "placeId": "placeId_5"
+        }
+    ],
+    "transportations": [
+        {
+            "name": "Airport Pickup at Tan Son Nhat International Airport",
+            "type": "Van",
+            "arrivalLocation": {
+                "position": {
+                    "lat": 10.7680405,
+                    "lng": 106.6927711
+                },
+                "label": "Felix Hotel, Đ. Phạm Ngũ Lão, Phường Phạm Ngũ Lão, Quận 1, Thành phố Hồ Chí Minh, Vietnam"
+            },
+            "startDate": "2024-02-02T00:00:00.000Z",
+            "startTime": "09:00",
+            "duration": 30,
+            "transportId": "transportId_1"
+        },
+        {
+            "name": "Hotel Drop-off to Tan Son Nhat International Airport",
+            "type": "Van",
+            "arrivalLocation": {
+                "position": {
+                    "lat": 10.8184631,
+                    "lng": 106.6588245
+                },
+                "label": "Tan Son Nhat International Airport (SGN), Truong Son Street, Tân Bình, Ho Chi Minh City, Vietnam"
+            },
+            "startDate": "2024-02-05T00:00:00.000Z",
+            "startTime": "07:00",
+            "duration": 30,
+            "transportId": "transportId_2"
+        }
+    ],
+    "share": [
+        {
+            "mode": "share-with-members",
+            "link": "custom_link_0001",
+            "members": [
+                {
+                    "member": {
+                        "id": "custom_author_0001",
+                        "email": "planner@example.com",
+                        "fullname": "Travel Planner",
+                        "username": "planner_user",
+                        "image": "",
+                        "id": "custom_author_0001"
+                    },
+                    "email": null,
+                    "role": "OWNER"
+                }
+            ],
+            "role": "VIEWER"
+        },
+        {
+            "mode": "get-link",
+            "link": "custom_link_0001",
+            "members": [],
+            "role": "VIEWER"
+        }
+    ],
+    "currentAccessRole": "OWNER",
+    "slug": "3-day-exploration-of-ho-chi-minh-city",
+    "experiences": [
+        {
+            "images": [
+                "https://api-staging.holicay.com/uploads/saigon-princess-cruise-ho-chi-minh-city-1_a7257b8749.webp",
+                "https://api-staging.holicay.com/uploads/saigon-princess-cruise-ho-chi-minh-city_cae15a9b72.webp",
+                "https://api-staging.holicay.com/uploads/saigon-princess-cruise-ho-chi-minh-city-2_b8a829705a.webp"
+            ],
+            "name": "Saigon Princess Dining Cruise in Ho Chi Minh City",
+            "category": "Cruises",
+            "address": {
+                "position": {
+                    "lat": 10.7674698,
+                    "lng": 106.707975
+                },
+                "label": "Saigon Princess - Unique Luxurious Dining Cruise, SAIGON PORT, 05 Nguyễn Tất Thành, Phường 12, Quận 4, Thành phố Hồ Chí Minh 700000, Vietnam"
+            },
+            "startDate": "2024-02-02T00:00:00.000Z",
+            "startTime": "19:30",
+            "duration": 120,
+            "cost": 29.9,
+            "currency": "USD",
+            "note": "",
+            "description": "Share a memorable night with your friends or family, and hop on this Saigon Princess cruise in Ho Chi Minh. Hop on a luxury cruise ship and enjoy a 2-hour scenic ride across Saigon River overlooking the city’s skyline. Have the option to enjoy a delectable meal during your ride and devour a spread of local and international fares! Be serenaded by a live band throughout your journey for a truly romantic and unforgettable evening.",
+            "placeId": "experienceId_1",
+            "provider": "klook",
+            "affiliateLink": ""
+        },
+        {
+            "name": "Full Day Cu Chi Tunnel Tour",
+            "category": "Culture and History",
+            "address": {
+                "position": {
+                    "lat": 11.1426821,
+                    "lng": 106.4623106
+                },
+                "label": "Cu Chi Tunnel, Phú Hiệp, Phú Mỹ Hưng, Củ Chi, Ho Chi Minh City, Vietnam"
+            },
+            "startDate": "2024-02-03T00:00:00.000Z",
+            "startTime": "07:00",
+            "duration": 480,
+            "placeId": "experienceId_2",
+            "description": "Embark on a historical journey with a full-day tour of the Cu Chi Tunnels. Dive deep into Vietnam's past and learn about the ingenuity of the guerrilla fighters who built and lived in these underground networks during the war. The tour includes a guide, transportation, and a unique opportunity to experience a part of Vietnam's history."
+        }
+    ]
+}

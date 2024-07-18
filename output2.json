@@ -1,0 +1,222 @@
+{
+    "id": "custom_itinerary_hochiminh_3days",
+    "title": "3 Days Exploring the Vibrance of Ho Chi Minh City",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-03T00:00:00.000Z",
+    "departurePoint": {
+        "pickup": {
+            "startTime": "08:00",
+            "description": "Private van pickup from Tan Son Nhat International Airport"
+        },
+        "meetup": null,
+        "departureDate": "2024-04-01T00:00:00.000Z"
+    },
+    "returnPoint": {
+        "returnDate": "2024-04-03T00:00:00.000Z",
+        "startTime": "19:00",
+        "description": "Private van drop-off to Tan Son Nhat International Airport"
+    },
+    "routes": [
+        {
+            "city": "Ho Chi Minh City",
+            "country": "Vietnam",
+            "label": "Ho Chi Minh City, Vietnam",
+            "position": {
+                "lat": 10.776889,
+                "lng": 106.700806
+            }
+        }
+    ],
+    "days": [
+        {
+            "color": "#1C2B4B",
+            "index": 1,
+            "title": "Arrival and City Introduction",
+            "startAt": "2024-04-01T00:00:00.000Z",
+            "endAt": "2024-04-01T23:59:59.000Z"
+        },
+        {
+            "color": "#E5634B",
+            "index": 2,
+            "title": "Cultural Immersion and Exploration",
+            "startAt": "2024-04-02T00:00:00.000Z",
+            "endAt": "2024-04-02T23:59:59.000Z"
+        },
+        {
+            "color": "#3E3D87",
+            "index": 3,
+            "title": "Leisure and Departure",
+            "startAt": "2024-04-03T00:00:00.000Z",
+            "endAt": "2024-04-03T23:59:59.000Z"
+        }
+    ],
+    "status": "PUBLISHED",
+    "author": {
+        "id": "custom_author_id",
+        "fullname": "Holicay Travel Planner",
+        "username": "travel.planner",
+        "email": "planner@holicay.com"
+    },
+    "activities": [
+        {
+            "name": "War Remnants Museum",
+            "category": "Culture and History",
+            "address": {
+                "position": {
+                    "lat": 10.779785,
+                    "lng": 106.692209
+                },
+                "label": "War Remnants Museum, 28 Vo Van Tan, District 3, Ho Chi Minh City, Vietnam"
+            },
+            "startDate": "2024-04-01T00:00:00.000Z",
+            "startTime": "10:00",
+            "duration": 120,
+            "activityId": "activityId_1"
+        },
+        {
+            "name": "Full Day Mekong Delta Tour",
+            "category": "Culture and History",
+            "address": {
+                "position": {
+                    "lat": 10.371529,
+                    "lng": 106.34785
+                },
+                "label": "Mekong Delta, Vietnam"
+            },
+            "startDate": "2024-04-02T00:00:00.000Z",
+            "startTime": "08:00",
+            "duration": 480,
+            "activityId": "activityId_2"
+        },
+        {
+            "name": "Ben Thanh Market",
+            "category": "Shopping",
+            "address": {
+                "position": {
+                    "lat": 10.772109,
+                    "lng": 106.698279
+                },
+                "label": "Ben Thanh Market, Le Loi, Ben Thanh, District 1, Ho Chi Minh City, Vietnam"
+            },
+            "startDate": "2024-04-03T00:00:00.000Z",
+            "startTime": "10:00",
+            "duration": 120,
+            "activityId": "activityId_3"
+        }
+    ],
+    "foodPlaces": [
+        {
+            "name": "Pho Quynh",
+            "address": {
+                "position": {
+                    "lat": 10.764208,
+                    "lng": 106.690095
+                },
+                "label": "323 Phạm Ngũ Lão, District 1, Ho Chi Minh City, Vietnam"
+            },
+            "startDate": "2024-04-01T00:00:00.000Z",
+            "startTime": "18:00",
+            "duration": 60,
+            "placeId": "ChIJ0T2NLzUudTERKxE8d61aX_E"
+        },
+        {
+            "name": "Mekong Rest Stop",
+            "address": {
+                "position": {
+                    "lat": 10.3759424,
+                    "lng": 106.3438898
+                },
+                "label": "National Route 1A, Tân Phong, Tân Hiệp, Long An, Vietnam"
+            },
+            "startDate": "2024-04-02T00:00:00.000Z",
+            "startTime": "12:00",
+            "duration": 60,
+            "placeId": "ChIJ8x4mycUudTERKl9q8jq5fY8"
+        },
+        {
+            "name": "Banh Mi Huynh Hoa",
+            "address": {
+                "position": {
+                    "lat": 10.78295,
+                    "lng": 106.698331
+                },
+                "label": "26 Lê Thị Riêng, Bến Thành, District 1, Ho Chi Minh City, Vietnam"
+            },
+            "startDate": "2024-04-03T00:00:00.000Z",
+            "startTime": "17:00",
+            "duration": 60,
+            "placeId": "ChIJN1t_tDeuEmsRUsoyG83frY4"
+        }
+    ],
+    "accommodations": [
+        {
+            "name": "Liberty Central Saigon Riverside Hotel",
+            "startRating": 4,
+            "address": {
+                "position": {
+                    "lat": 10.774596,
+                    "lng": 106.706928
+                },
+                "label": "Liberty Central Saigon Riverside Hotel, 17 Ton Duc Thang Street, District 1, Ho Chi Minh City, Vietnam"
+            },
+            "checkInDate": "2024-04-01T00:00:00.000Z",
+            "checkInTime": "09:00",
+            "checkOutDate": "2024-04-03T00:00:00.000Z",
+            "checkOutTime": "18:00",
+            "placeId": "ChIJ2ehlkZOrNTERzL1Vpx8rlfM"
+        }
+    ],
+    "transportations": [
+        {
+            "name": "Private airport pickup from Tan Son Nhat International Airport",
+            "type": "Van",
+            "arrivalLocation": {
+                "position": {
+                    "lat": 10.8184631,
+                    "lng": 106.6588245
+                },
+                "label": "Tan Son Nhat International Airport (SGN), Truong Son Street, Tân Bình, Ho Chi Minh City, Vietnam"
+            },
+            "startDate": "2024-04-01T00:00:00.000Z",
+            "startTime": "08:00",
+            "duration": 60
+        },
+        {
+            "name": "Private airport dropoff to Tan Son Nhat International Airport",
+            "type": "Van",
+            "arrivalLocation": {
+                "position": {
+                    "lat": 10.8184631,
+                    "lng": 106.6588245
+                },
+                "label": "Tan Son Nhat International Airport (SGN), Truong Son Street, Tân Bình, Ho Chi Minh City, Vietnam"
+            },
+            "startDate": "2024-04-03T00:00:00.000Z",
+            "startTime": "19:00",
+            "duration": 60
+        }
+    ],
+    "share": [
+        {
+            "mode": "share-with-members",
+            "link": "custom_share_link",
+            "members": [
+                {
+                    "member": {
+                        "id": "custom_author_id",
+                        "email": "planner@holicay.com",
+                        "fullname": "Holicay Travel Planner",
+                        "username": "travel.planner",
+                        "image": "https://api.holicay.com/uploads/Square_850585f7a6.png"
+                    },
+                    "email": null,
+                    "role": "OWNER"
+                }
+            ],
+            "role": "VIEWER"
+        }
+    ],
+    "currentAccessRole": "OWNER",
+    "slug": "3-days-exploring-the-vibrance-of-ho-chi-minh-city",
+    "experiences": []
+}
